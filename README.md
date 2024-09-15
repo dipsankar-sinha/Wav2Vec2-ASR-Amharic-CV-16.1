@@ -3,8 +3,6 @@ This the code for fine tuning Wav2Vec2-Large-XLS-R-300M for building an ASR for 
 ---
 license: apache-2.0
 base_model: facebook/wav2vec2-xls-r-300m
-tags:
-- generated_from_trainer
 datasets:
 - common_voice_16_1
 metrics:
