@@ -80,10 +80,9 @@ The following hyperparameters were used during training:
 
 ### Results on Test Data
 
-The average Word Error Rate (WER) on the Test Data is: 0.7805203468979319
----
-TEST WER: 78.05%
----
+- The average Word Error Rate (WER) on the Test Data is: 0.7805203468979319
+- TEST WER: 78.05%
+
 ### Framework versions
 
 - Transformers 4.42.0
