@@ -28,22 +28,21 @@ Authors: Arun Babu, Changhan Wang, Andros Tjandra, Kushal Lakhotia, Qiantong Xu,
 
 ## Intended uses & limitations
 
-This model is a general purpose speech to text conversion model. There can be several use cases of this model such as in eduation, business, healthcare, government sectors etc.
-The model can be specifically designed for this sectors.
+- This model is a general purpose speech to text conversion model. There can be several use cases of this model such as in eduation, business, healthcare, government sectors etc.The model can be specifically designed for this sectors.
 
-The primary limitation is the WER is not as per with the standard. That is because of lack of data. The model's performance can be improved by using a large dataset with complex sentences and sector specific Information.
+- The primary limitation is the WER is not as per with the standard. That is because of lack of data. The model's performance can be improved by using a large dataset with complex sentences and sector specific Information.
 
 ## Training and evaluation data
 
-Datasets: common_voice_16_1
-Language Used: Amharic
-Total Recorded Hours: 3
-Total Validated Hours: 2
+- Datasets: common_voice_16_1
+- Language Used: Amharic
+- Total Recorded Hours: 3
+- Total Validated Hours: 2
 
 It had two splits of Train and Test data.
-Training Data: 638 Sentences (5-10 ms)
-Testing Data: 162 Sentences (5-10 ms)
-Sampling Rate: 16000 Hz
+- Training Data: 638 Sentences (5-10 ms)
+- Testing Data: 162 Sentences (5-10 ms)
+- Sampling Rate: 16000 Hz
 
 ## Training procedure
 
