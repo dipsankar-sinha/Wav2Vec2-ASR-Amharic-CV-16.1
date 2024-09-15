@@ -5,24 +5,6 @@ license: apache-2.0
 base_model: facebook/wav2vec2-xls-r-300m
 datasets:
 - common_voice_16_1
-metrics:
-- wer
-model-index:
-- name: wav2vec2-large-xls-r-300m-amharic-demo-colab
-  results:
-  - task:
-      name: Automatic Speech Recognition
-      type: automatic-speech-recognition
-    dataset:
-      name: common_voice_16_1
-      type: common_voice_16_1
-      config: am
-      split: test
-      args: am
-    metrics:
-    - name: Wer
-      type: wer
-      value: 0.8639092728485657
 ---
 
 This model is a fine-tuned version of [facebook/wav2vec2-xls-r-300m](https://huggingface.co/facebook/wav2vec2-xls-r-300m) on the common_voice_16_1 dataset.
