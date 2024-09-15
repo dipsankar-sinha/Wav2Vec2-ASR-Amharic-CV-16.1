@@ -1,10 +1,9 @@
 # Wav2Vec2-ASR-Amharic-CV-16.1
 This the code for fine tuning Wav2Vec2-Large-XLS-R-300M for building an ASR for Amharic Language using Mozilla Common Voice 16.1 Dataset. Implementation of the model to a web application using Gradio Library.
----
-license: apache-2.0
-Base Model: facebook/wav2vec2-xls-r-300m
-Datasets: common_voice_16_1
----
+- license: apache-2.0
+- Base Model: facebook/wav2vec2-xls-r-300m
+- Datasets: common_voice_16_1
+
 This model is a fine-tuned version of [facebook/wav2vec2-xls-r-300m](https://huggingface.co/facebook/wav2vec2-xls-r-300m) on the common_voice_16_1 dataset.
 It achieves the following results on the evaluation set:
 - Validation Loss : 1.6333
@@ -31,6 +30,8 @@ Authors: Arun Babu, Changhan Wang, Andros Tjandra, Kushal Lakhotia, Qiantong Xu,
 
 This model is a general purpose speech to text conversion model. There can be several use cases of this model such as in eduation, business, healthcare, government sectors etc.
 The model can be specifically designed for this sectors.
+
+The primary limitation is the WER is not as per with the standard. That is because of lack of data. The model's performance can be improved by using a large dataset with complex sentences and sector specific Information.
 
 ## Training and evaluation data
 
