@@ -94,5 +94,5 @@ The following hyperparameters were used during training:
 ## Implementing the model into Web Application
 
 To implement the model, I have used Gradio python library to host and deploy the model into a web application.
-I have created the interface of the Web Application through Gradio. Rest the API integration is handeled by the library itself.
+I have created the interface of the Web Application through Gradio. Rest of the part like, API integration is handeled by the library itself.
 
