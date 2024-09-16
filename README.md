@@ -28,7 +28,7 @@ Authors: Arun Babu, Changhan Wang, Andros Tjandra, Kushal Lakhotia, Qiantong Xu,
 
 ## Intended uses & limitations
 
-- This model is a general purpose speech to text conversion model. There can be several use cases of this model such as in eduation, business, healthcare, government sectors etc.The model can be specifically designed for this sectors.
+- This model is a general purpose speech to text conversion model. There can be several use cases of this model such as in eduation, business, healthcare, government sectors etc.The model can be specifically designed for these sectors.
 
 - The primary limitation is the WER is not as per with the standard. That is because of lack of data. The model's performance can be improved by using a large dataset with complex sentences and sector specific Information.
 
@@ -93,6 +93,6 @@ The following hyperparameters were used during training:
 
 ## Implementing the model into Web Application
 
-To implement the model, I have used Gradio model to host and deploy the model into a web application.
+To implement the model, I have used Gradio python library to host and deploy the model into a web application.
 I have created the interface of the Web Application through Gradio. Rest the API integration is handeled by the library itself.
 
